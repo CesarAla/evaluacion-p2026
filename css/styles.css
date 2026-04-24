@@ -64,3 +64,56 @@ img{
  #D9D9D9  gris
  #A3D9A5. verde
 */
+
+/* Abajo de Header de navegacion*/
+.hero-header{
+  background-image: linear-gradient(rgba(4,46,95,45),rgba(4,46,95,45)),url('img/banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 75rem;
+  display: flex;
+  align-items: center;
+
+}
+.contenido-hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.texto-hero{
+  flex-basis: 65%;
+  color: white;
+
+}
+.texto-superior{
+  color: #FFAA00;
+  font-size: 2.6rem;
+  letter-spacing: .4rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+
+  
+}
+.texto-hero h2{
+  color: #A3D9A5;
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.btn-amarillo{
+  background-color: #FFAA00;
+  color: #003366;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+
+}
+.btn-blanco{
+ 
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+
+}
